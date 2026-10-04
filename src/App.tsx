@@ -6,9 +6,9 @@ const projects = [
     description:
       "An independent SerpApi demo that compares the same Arabic search intent across Baghdad, Riyadh, Cairo and Casablanca, then exposes the localization parameters behind the differences.",
     tech: ["Next.js", "React", "TypeScript", "SerpApi", "REST API", "RTL/LTR"],
-    liveUrl: "https://arabic-search-context-lab-1yn1.onrender.com",
-    sourceUrl: null,
-    proofUrl: "https://arabic-search-context-lab-1yn1.onrender.com/proof",
+    liveUrl: "https://arabic-search-context-lab-prod.onrender.com",
+    sourceUrl: "https://github.com/yousef-iq1/arabic-search-context-lab",
+    proofUrl: "https://arabic-search-context-lab-prod.onrender.com/proof",
   },
   {
     id: "seen",
@@ -17,7 +17,7 @@ const projects = [
     description:
       "A bilingual movie and TV discovery app that learns what you like and turns it into personal recommendations.",
     tech: ["Next.js", "React", "TypeScript", "Supabase", "Tailwind CSS", "Framer Motion", "Zustand", "PWA"],
-    liveUrl: "https://seen-it.onrender.com",
+    liveUrl: "https://seen-it-zae7.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/Seen-it",
     proofUrl: null,
   },
