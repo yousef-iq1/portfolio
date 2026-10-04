@@ -28,7 +28,7 @@ const projects = [
     description:
       "A personal publishing space built for writing, translating and managing stories without losing the feeling of a real blog.",
     tech: ["React", "TypeScript", "Vite", "Express", "PostgreSQL", "Supabase", "Passport", "TanStack Query", "Tailwind CSS"],
-    liveUrl: "https://multilingual-cms-106g.onrender.com",
+    liveUrl: "https://multilingual-cms-prod.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/multilingual-cms",
     proofUrl: null,
   },
