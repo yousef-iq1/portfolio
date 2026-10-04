@@ -6,9 +6,9 @@ const projects = [
     description:
       "An independent SerpApi demo that compares the same Arabic search intent across Baghdad, Riyadh, Cairo and Casablanca, then exposes the localization parameters behind the differences.",
     tech: ["Next.js", "React", "TypeScript", "SerpApi", "REST API", "RTL/LTR"],
-    liveUrl: "https://arabic-search-context-lab.onrender.com",
+    liveUrl: "https://arabic-search-context-lab-1yn1.onrender.com",
     sourceUrl: null,
-    proofUrl: "https://arabic-search-context-lab.onrender.com/proof",
+    proofUrl: "https://arabic-search-context-lab-1yn1.onrender.com/proof",
   },
   {
     id: "seen",
@@ -39,7 +39,7 @@ const projects = [
     description:
       "A focused dashboard for following the Iraqi dinar, exploring price history and converting between IQD and USD.",
     tech: ["React", "TypeScript", "Express", "REST API", "TanStack Query", "Recharts", "Tailwind CSS", "Zod"],
-    liveUrl: "https://iqd-market-tracker.onrender.com",
+    liveUrl: "https://iqd-market-tracker-g192.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/iqd-market-tracker",
     proofUrl: null,
   },
