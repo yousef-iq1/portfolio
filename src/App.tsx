@@ -2,9 +2,9 @@ const projects = [
   {
     id: "serpapi",
     title: "Arabic Search Context Lab",
-    kind: "Developer tool & localization",
+    kind: "API product & developer education",
     description:
-      "An independent SerpApi demo that compares the same Arabic search intent across Baghdad, Riyadh, Cairo and Casablanca, then exposes the localization parameters behind the differences.",
+      "An independent SerpApi developer proof showing how the same Arabic search intent changes across Baghdad, Riyadh, Cairo and Casablanca, with public source, technical guidance and localization notes.",
     tech: ["Next.js", "React", "TypeScript", "SerpApi", "REST API", "RTL/LTR"],
     liveUrl: "https://arabic-search-context-lab-prod.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/arabic-search-context-lab",
@@ -197,8 +197,8 @@ export default function App() {
 
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-copy">
-          <h1 id="hero-title">Hi. These are a few websites I’ve designed and built.</h1>
-          <p>Take a look.</p>
+          <h1 id="hero-title">I build bilingual, API-driven products and make complex product behavior easier to understand.</h1>
+          <p>Selected work across search, data, media, and publishing.</p>
         </div>
         <div className="hero-mark" aria-hidden="true">
           <span className="hero-card hero-card-one" />
@@ -236,14 +236,14 @@ export default function App() {
                 <a className="project-live" href={project.liveUrl} target="_blank" rel="noreferrer">
                   Live Website <Arrow />
                 </a>
-                {project.sourceUrl ? (
-                  <a className="project-code" href={project.sourceUrl} target="_blank" rel="noreferrer">
-                    <GitHubMark /> Code on GitHub
-                  </a>
-                ) : null}
                 {project.proofUrl ? (
                   <a className="project-code" href={project.proofUrl} target="_blank" rel="noreferrer">
                     Proof Pack <Arrow />
+                  </a>
+                ) : null}
+                {project.sourceUrl ? (
+                  <a className="project-code" href={project.sourceUrl} target="_blank" rel="noreferrer">
+                    <GitHubMark /> Code on GitHub
                   </a>
                 ) : null}
               </div>
