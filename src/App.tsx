@@ -240,7 +240,8 @@ export default function App() {
                   <a className="project-code" href={project.sourceUrl} target="_blank" rel="noreferrer">
                     <GitHubMark /> Code on GitHub
                   </a>
-                ) : project.proofUrl ? (
+                ) : null}
+                {project.proofUrl ? (
                   <a className="project-code" href={project.proofUrl} target="_blank" rel="noreferrer">
                     Proof Pack <Arrow />
                   </a>
