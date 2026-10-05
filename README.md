@@ -1,6 +1,17 @@
 # Yousef Ali — Developer Portfolio
 
-A focused portfolio site for selected web-development work.
+A focused portfolio for bilingual, API-driven product work.
+
+## Selected work
+
+- **Arabic Search Context Lab** — independent SerpApi developer proof with public source, Arabic technical guidance, localization work, product feedback, and a proof pack.
+- **Seen It** — bilingual movie and TV discovery product.
+- **Yousef's Blog** — multilingual publishing workflow.
+- **IQD Market Tracker** — Arabic/English exchange-rate and data product.
+
+## Live site
+
+https://yousef-portfolio-63jd.onrender.com
 
 ## Stack
 
@@ -24,13 +35,7 @@ npm run build
 
 ## Deployment
 
-Deploy as a Render Static Site:
+Render Static Site:
 
 - Build command: `npm install && npm run build`
 - Publish directory: `dist`
-
-Connect the custom domain after the site is live.
-
-## Before publishing
-
-Replace the temporary project links with the final Render and GitHub URLs, then add the final email and GitHub profile URL.
