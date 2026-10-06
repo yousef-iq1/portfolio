@@ -247,12 +247,12 @@ export default function App() {
                 ) : null}
                 {project.walkthroughUrl ? (
                   <a className="project-code project-watch" href={project.walkthroughUrl} target="_blank" rel="noreferrer">
-                    Watch 1:29 <Arrow />
+                    Watch video <Arrow />
                   </a>
                 ) : null}
                 {project.sourceUrl ? (
                   <a className="project-code" href={project.sourceUrl} target="_blank" rel="noreferrer">
-                    <GitHubMark /> Code on GitHub
+                    <GitHubMark /> GitHub
                   </a>
                 ) : null}
               </div>

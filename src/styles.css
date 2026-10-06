@@ -1194,7 +1194,7 @@ svg {
 }
 
 
-/* SerpApi walkthrough link inside the existing card system. */
+
 .project-watch {
   background: color-mix(in srgb, var(--project-accent) 8%, var(--surface)) !important;
   border-color: color-mix(in srgb, var(--project-accent) 20%, var(--line)) !important;

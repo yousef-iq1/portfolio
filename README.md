@@ -1,18 +1,12 @@
 # Yousef Ali - Developer Portfolio
 
-A small portfolio of projects I built and deployed.
+A small collection of projects I have built and deployed.
 
 ## Projects
 
-- **Arabic Search Context Lab**: a SerpApi project that compares the same Arabic search across four cities. Includes Arabic docs, localization notes, product feedback, a 30/60/90 plan, source code, and a short walkthrough.
-- **Seen It**: bilingual movie and TV app with personal recommendations, profiles, shareable lists, and PWA support.
-- **Yousef's Blog**: personal writing and translation site with a private publishing workflow.
-- **IQD Market Tracker**: Arabic/English dashboard for IQD/USD rates, history, and conversion.
+- **Arabic Search Context Lab** - a SerpApi project comparing the same Arabic search across Baghdad, Riyadh, Cairo, and Casablanca.
+- **Seen It** - an Arabic/English movie and TV discovery app.
+- **Yousef's Blog** - a multilingual publishing project.
+- **IQD Market Tracker** - an Arabic/English exchange-rate dashboard.
 
-## Stack
-
-React, Next.js, TypeScript, JavaScript, Express, Supabase, PostgreSQL, REST APIs, Render.
-
-## Live site
-
-https://yousef-portfolio-63jd.onrender.com
+The site is built with React, TypeScript, and Vite.
