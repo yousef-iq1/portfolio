@@ -414,7 +414,7 @@ svg {
   background: var(--surface-2);
 }
 
-/* Seen It — airy blue, playful but clean. */
+/* Seen It: airy blue, playful but clean. */
 .visual-seen {
   display: grid;
   place-items: center;
@@ -621,7 +621,7 @@ svg {
   transform: rotate(6deg);
 }
 
-/* Blog — warm paper and quiet sage. */
+/* Blog: warm paper and quiet sage. */
 .visual-blog {
   display: grid;
   place-items: center;
@@ -731,7 +731,7 @@ svg {
   transform: rotate(-4deg);
 }
 
-/* Market — muted green, precise and calm. */
+/* Market: muted green, precise and calm. */
 .visual-market {
   display: grid;
   place-items: center;
@@ -1011,7 +1011,7 @@ svg {
 }
 
 
-/* Arabic Search Context Lab — developer tooling, localization and structured search. */
+/* Arabic Search Context Lab: developer tooling, localization and structured search. */
 .project-serpapi {
   --project-accent: #315f82;
   --project-stage: #e8eef5;
@@ -1194,7 +1194,7 @@ svg {
 }
 
 
-/* SerpApi walkthrough — role-relevant proof surfaced without changing the approved card system. */
+/* SerpApi walkthrough link inside the existing card system. */
 .project-watch {
   background: color-mix(in srgb, var(--project-accent) 8%, var(--surface)) !important;
   border-color: color-mix(in srgb, var(--project-accent) 20%, var(--line)) !important;
