@@ -9,6 +9,7 @@ const projects = [
     liveUrl: "https://arabic-search-context-lab-prod.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/arabic-search-context-lab",
     proofUrl: "https://arabic-search-context-lab-prod.onrender.com/proof",
+    walkthroughUrl: "https://arabic-search-context-lab-prod.onrender.com/walkthrough",
   },
   {
     id: "seen",
@@ -20,6 +21,7 @@ const projects = [
     liveUrl: "https://seen-it-zae7.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/Seen-it",
     proofUrl: null,
+    walkthroughUrl: null,
   },
   {
     id: "blog",
@@ -31,6 +33,7 @@ const projects = [
     liveUrl: "https://multilingual-cms-prod.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/multilingual-cms",
     proofUrl: null,
+    walkthroughUrl: null,
   },
   {
     id: "market",
@@ -42,6 +45,7 @@ const projects = [
     liveUrl: "https://iqd-market-tracker-g192.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/iqd-market-tracker",
     proofUrl: null,
+    walkthroughUrl: null,
   },
 ]
 
@@ -239,6 +243,11 @@ export default function App() {
                 {project.proofUrl ? (
                   <a className="project-code" href={project.proofUrl} target="_blank" rel="noreferrer">
                     Proof Pack <Arrow />
+                  </a>
+                ) : null}
+                {project.walkthroughUrl ? (
+                  <a className="project-code project-watch" href={project.walkthroughUrl} target="_blank" rel="noreferrer">
+                    Watch 1:29 <Arrow />
                   </a>
                 ) : null}
                 {project.sourceUrl ? (
