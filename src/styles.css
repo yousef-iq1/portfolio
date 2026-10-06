@@ -1192,3 +1192,15 @@ svg {
   .context-chip-one { left: 4%; top: 18%; }
   .context-chip-two { display: none; }
 }
+
+
+/* SerpApi walkthrough — role-relevant proof surfaced without changing the approved card system. */
+.project-watch {
+  background: color-mix(in srgb, var(--project-accent) 8%, var(--surface)) !important;
+  border-color: color-mix(in srgb, var(--project-accent) 20%, var(--line)) !important;
+  color: color-mix(in srgb, var(--project-accent) 68%, var(--ink)) !important;
+}
+
+.project-watch:hover {
+  background: color-mix(in srgb, var(--project-accent) 13%, var(--surface)) !important;
+}
