@@ -136,7 +136,7 @@ function ProjectVisual({ id }: { id: string }) {
         <div className="blog-sheet">
           <div className="blog-nav">
             <strong>Yousef's Blog</strong>
-            <span>•••</span>
+            <span>...</span>
           </div>
           <div className="blog-photo">
             <span />
@@ -148,10 +148,10 @@ function ProjectVisual({ id }: { id: string }) {
           </div>
           <div className="blog-footer">
             <span>Read</span>
-            <span>↗</span>
+            
           </div>
         </div>
-        <div className="blog-note">personal notes ✦</div>
+        <div className="blog-note">personal notes</div>
       </div>
     )
   }
