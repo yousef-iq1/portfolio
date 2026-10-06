@@ -1,41 +1,18 @@
-# Yousef Ali — Developer Portfolio
+# Yousef Ali - Developer Portfolio
 
-A focused portfolio for bilingual, API-driven product work.
+A small portfolio of projects I built and deployed.
 
-## Selected work
+## Projects
 
-- **Arabic Search Context Lab** — independent SerpApi developer proof with public source, Arabic technical guidance, localization work, product feedback, and a proof pack.
-- **Seen It** — bilingual movie and TV discovery product.
-- **Yousef's Blog** — multilingual publishing workflow.
-- **IQD Market Tracker** — Arabic/English exchange-rate and data product.
+- **Arabic Search Context Lab**: a SerpApi project that compares the same Arabic search across four cities. Includes Arabic docs, localization notes, product feedback, a 30/60/90 plan, source code, and a short walkthrough.
+- **Seen It**: bilingual movie and TV app with personal recommendations, profiles, shareable lists, and PWA support.
+- **Yousef's Blog**: personal writing and translation site with a private publishing workflow.
+- **IQD Market Tracker**: Arabic/English dashboard for IQD/USD rates, history, and conversion.
+
+## Stack
+
+React, Next.js, TypeScript, JavaScript, Express, Supabase, PostgreSQL, REST APIs, Render.
 
 ## Live site
 
 https://yousef-portfolio-63jd.onrender.com
-
-## Stack
-
-- React
-- TypeScript
-- Vite
-- CSS
-
-## Local development
-
-```bash
-npm install
-npm run dev
-```
-
-## Production build
-
-```bash
-npm run build
-```
-
-## Deployment
-
-Render Static Site:
-
-- Build command: `npm install && npm run build`
-- Publish directory: `dist`

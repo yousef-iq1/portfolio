@@ -2,9 +2,9 @@ const projects = [
   {
     id: "serpapi",
     title: "Arabic Search Context Lab",
-    kind: "API product & developer education",
+    kind: "SerpApi project",
     description:
-      "An independent SerpApi developer proof showing how the same Arabic search intent changes across Baghdad, Riyadh, Cairo and Casablanca, with public source, technical guidance and localization notes.",
+      "A SerpApi project that runs the same Arabic search in Baghdad, Riyadh, Cairo and Casablanca. It includes the source code, Arabic docs, localization notes, product feedback and a short walkthrough.",
     tech: ["Next.js", "React", "TypeScript", "SerpApi", "REST API", "RTL/LTR"],
     liveUrl: "https://arabic-search-context-lab-prod.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/arabic-search-context-lab",
@@ -14,9 +14,9 @@ const projects = [
   {
     id: "seen",
     title: "Seen It",
-    kind: "Movie discovery",
+    kind: "Movie and TV app",
     description:
-      "A bilingual movie and TV discovery app that learns what you like and turns it into personal recommendations.",
+      "A bilingual movie and TV app with personal recommendations, profiles and shareable lists.",
     tech: ["Next.js", "React", "TypeScript", "Supabase", "Tailwind CSS", "Framer Motion", "Zustand", "PWA"],
     liveUrl: "https://seen-it-zae7.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/Seen-it",
@@ -26,9 +26,9 @@ const projects = [
   {
     id: "blog",
     title: "Yousef's Blog",
-    kind: "Writing & publishing",
+    kind: "Writing and publishing",
     description:
-      "A personal publishing space built for writing, translating and managing stories without losing the feeling of a real blog.",
+      "A personal publishing site I built for writing and translation, with a private editor behind it.",
     tech: ["React", "TypeScript", "Vite", "Express", "PostgreSQL", "Supabase", "Passport", "TanStack Query", "Tailwind CSS"],
     liveUrl: "https://multilingual-cms-prod.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/multilingual-cms",
@@ -38,9 +38,9 @@ const projects = [
   {
     id: "market",
     title: "IQD Market Tracker",
-    kind: "Exchange rates & data",
+    kind: "IQD/USD dashboard",
     description:
-      "A focused dashboard for following the Iraqi dinar, exploring price history and converting between IQD and USD.",
+      "A dashboard for following IQD/USD rates, checking price history and converting between the two currencies.",
     tech: ["React", "TypeScript", "Express", "REST API", "TanStack Query", "Recharts", "Tailwind CSS", "Zod"],
     liveUrl: "https://iqd-market-tracker-g192.onrender.com",
     sourceUrl: "https://github.com/yousef-iq1/iqd-market-tracker",
@@ -201,8 +201,8 @@ export default function App() {
 
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-copy">
-          <h1 id="hero-title">I build bilingual, API-driven products and make complex product behavior easier to understand.</h1>
-          <p>Selected work across search, data, media, and publishing.</p>
+          <h1 id="hero-title">I build bilingual web products and explain the technical parts clearly.</h1>
+          <p>A few projects I've built across search, data, media and publishing.</p>
         </div>
         <div className="hero-mark" aria-hidden="true">
           <span className="hero-card hero-card-one" />
@@ -242,7 +242,7 @@ export default function App() {
                 </a>
                 {project.proofUrl ? (
                   <a className="project-code" href={project.proofUrl} target="_blank" rel="noreferrer">
-                    Proof Pack <Arrow />
+                    Project notes <Arrow />
                   </a>
                 ) : null}
                 {project.walkthroughUrl ? (
