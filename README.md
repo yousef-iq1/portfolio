@@ -1,12 +1,18 @@
-# Yousef Ali - Developer Portfolio
+# Yousef Ali — Developer Portfolio
 
-A small collection of projects I have built and deployed.
+A collection of web applications I've built with React, TypeScript, Node.js, and backend services. My work spans interactive interfaces, user accounts, REST APIs, database-backed content, and responsive multilingual experiences.
 
-## Projects
+## Featured projects
 
-- **Arabic Search Context Lab** - a SerpApi project comparing the same Arabic search across Baghdad, Riyadh, Cairo, and Casablanca.
-- **Seen It** - an Arabic/English movie and TV discovery app.
-- **Yousef's Blog** - a multilingual publishing project.
-- **IQD Market Tracker** - an Arabic/English exchange-rate dashboard.
+| Project | What I built | Main technologies |
+| --- | --- | --- |
+| [Multilingual CMS](https://github.com/yousef-iq1/multilingual-cms) | Full-stack publishing platform with protected editor, authentication, APIs, PostgreSQL, and image uploads | React, TypeScript, Express, Supabase, PostgreSQL |
+| [Seen It](https://github.com/yousef-iq1/Seen-it) | Interactive movie and TV discovery app with recommendations, accounts, and Arabic/English support | React 19, Next.js, TypeScript, Zustand, Supabase |
+| [IQD Market Tracker](https://github.com/yousef-iq1/iqd-market-tracker) | Responsive currency dashboard with API-backed rates, charts, and conversion tools | React, TypeScript, Express, Recharts |
+| [Arabic Search Context Lab](https://github.com/yousef-iq1/arabic-search-context-lab) | Experiment comparing Arabic search context across cities | React, APIs |
 
-The site is built with React, TypeScript, and Vite.
+## Portfolio site
+
+This portfolio itself is built with **React, TypeScript, and Vite**.
+
+I prefer building projects end to end: shaping the interface, connecting the data, handling edge cases, and getting the result ready to deploy.
